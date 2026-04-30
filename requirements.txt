@@ -1,10 +1,10 @@
+# Ambiente recomendado: Python 3.10 ou 3.11 (melhor suporte a wheels no Windows)
+
 numpy
 pandas
 matplotlib
-seaborn
 scikit-learn
 imbalanced-learn
-shap
 pillow
 torch
 torchvision
