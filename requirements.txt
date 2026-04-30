@@ -1,0 +1,13 @@
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+imbalanced-learn
+shap
+pillow
+torch
+torchvision
+jupyter
+notebook
+ipykernel
