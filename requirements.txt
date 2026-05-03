@@ -8,6 +8,8 @@ imbalanced-learn
 pillow
 torch
 torchvision
+opencv-python-headless
+pytesseract
 jupyter
 notebook
 ipykernel
