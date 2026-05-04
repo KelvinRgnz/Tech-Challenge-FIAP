@@ -1,4 +1,8 @@
 # Ambiente recomendado: Python 3.10 ou 3.11 (melhor suporte a wheels no Windows)
+#
+# Tesseract: pytesseract abaixo exige o executável Tesseract instalado no sistema
+# para a célula de OCR em nootebook/image_trial.ipynb (a CNN usa só opencv + torch).
+# Ver README.md → seção "Tesseract".
 
 numpy
 pandas
