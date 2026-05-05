@@ -4,16 +4,16 @@
 # para a célula de OCR em nootebook/image_trial.ipynb (a CNN usa só opencv + torch).
 # Ver README.md → seção "Tesseract".
 
-numpy
-pandas
-matplotlib
-scikit-learn
-imbalanced-learn
-pillow
-torch
-torchvision
-opencv-python-headless
-pytesseract
-jupyter
-notebook
-ipykernel
+numpy==2.4.4
+pandas==3.0.2
+matplotlib==3.10.8
+scikit-learn==1.8.0
+imbalanced-learn==0.14.1
+pillow==12.2.0
+torch==2.10.0
+torchvision==0.25.0
+opencv-python-headless==4.13.0.92
+pytesseract==0.3.13
+jupyter==1.1.1
+notebook==7.5.6
+ipykernel==7.2.0
