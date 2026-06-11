@@ -49,7 +49,7 @@ Conteúdo principal:
 - análise exploratória (EDA)
 - limpeza e tratamento de dados
 - modelos de classificação (Decision Tree e Random Forest)
-- métricas, matrizes de confusão, gráficos e leitura interpretativa (relatório por classe, árvore da Random Forest e erros na matriz de confusão)
+- métricas, matrizes de confusão, comparação entre modelos, interpretabilidade (importância de features, permutação e SHAP) e leitura interpretativa
 
 ### B) Dados de imagem
 
@@ -62,7 +62,7 @@ Conteúdo principal:
 - pré-processamento com **OpenCV** (denoise, Otsu, threshold adaptativo) para **entrada tratada de 3 canais** na CNN; demonstração opcional de OCR com **Tesseract**
 - preparação dos dados (split treino/validação/teste)
 - treinamento de CNN (PyTorch)
-- avaliação com métricas, matriz de confusão, curva ROC, limiar na validação e análise de erros
+- avaliação com métricas, matriz de confusão, curva ROC, limiar na validação e análise de erros, com **interpretação escrita** dos resultados (métricas, treino vs teste, limiar e erros FP/FN)
 
 > **Reprodutibilidade:** após mudanças no código, use *Kernel → Restart & Run All* no Jupyter para alinhar métricas e figuras a uma única execução (ver também o resumo no próprio notebook).
 
@@ -80,7 +80,7 @@ As dependências estão centralizadas em `requirements.txt` e cobrem:
 
 `scipy` e `joblib` entram como dependências transitivas do `scikit-learn` ao instalar com `pip`.
 
-Opcional (não listado no arquivo): `seaborn` para estilos extras em gráficos; `shap` se você adicionar interpretação SHAP ao notebook.
+Opcional (não listado no arquivo): `seaborn` para estilos extras em gráficos.
 
 ### Tesseract (apenas para a parte de OCR no `image_trial.ipynb`)
 
