@@ -11,6 +11,7 @@ Projeto de análise e modelagem para triagem médica com duas frentes:
 - `data/0` e `data/1`: imagens histopatológicas (negativo/positivo).
 - `nootebook/data_triagem.ipynb`: EDA, pré-processamento, modelagem e interpretabilidade para dados estruturados.
 - `nootebook/image_trial.ipynb`: pipeline de classificação de imagens com **CNN em PyTorch** (EDA, treino, validação, teste e curvas de avaliação).
+- `nootebook/algoritmo_genetico.ipynb`: otimização de hiperparâmetros do **Random Forest** via algoritmo genético (3 experimentos, comparação com baseline do Módulo 1).
 
 ## Requisitos de ambiente
 
@@ -65,6 +66,21 @@ Conteúdo principal:
 - avaliação com métricas, matriz de confusão, curva ROC, limiar na validação e análise de erros, com **interpretação escrita** dos resultados (métricas, treino vs teste, limiar e erros FP/FN)
 
 > **Reprodutibilidade:** após mudanças no código, use *Kernel → Restart & Run All* no Jupyter para alinhar métricas e figuras a uma única execução (ver também o resumo no próprio notebook).
+
+### C) Algoritmo genético (Módulo 2)
+
+Abra e execute:
+
+- `nootebook/algoritmo_genetico.ipynb`
+
+Conteúdo principal:
+- baseline do **Random Forest** (hiperparâmetros do Módulo 1)
+- codificação de genes, seleção, cruzamento e mutação
+- função fitness (macro F1, recall níveis 2–3, acurácia, penalidade de overfitting)
+- **3 experimentos** com população e taxas distintas
+- comparação modelo original vs otimizado no teste
+
+> O AG pode levar alguns minutos (cada indivíduo treina um RF). Execute com *Run All* e aguarde a conclusão dos 3 experimentos.
 
 ## Dependências
 
